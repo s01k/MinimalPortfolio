@@ -1,6 +1,6 @@
 # Minimal Portfolio with HTML-CSS and JS.
 
-## Screenshot
+## Screenshots
 <img src="f/s1.png">
 <img src="f/s2.png">
 
