@@ -1,0 +1,285 @@
+h1{
+    font-size: 80px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+h3{
+    font-size: 40px;
+    text-align: left;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 25%;
+    padding: 8px 8px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+    color: black;
+  }
+
+  .card:hover {
+    box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
+  }
+ /* card image */
+  .cimg {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+  }
+  
+
+/*Container layout*/
+
+  .containerl {
+    padding: 24px;
+  }
+
+  .cgrey{
+    background-color:#f1f1f1
+  }
+  
+  .rowl:after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  
+  .columnl-70 {
+    float: left;
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .columnl-30 {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+
+  /*about column*/
+  .columnl-i1 {
+    float: left;
+    width: 30%;
+    padding: 20px;
+  }
+
+  .columnl-i2 {
+    float: left;
+    width: 70%;
+    padding: 20px;
+  }
+  
+  .largel-font {
+    font-size: 48px;
+  }
+  
+  .xlargel-font {
+    font-size: 64px
+  }
+  
+  .buttonl {
+    border: none;
+    color: white;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .buttonl:hover{
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .imgi {
+    display: block;
+    height: auto;
+    max-width: 100%;
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .imgj { /*about image*/
+    display: block;
+    max-width: 100%;
+    /*box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2);*/
+  }
+  
+  /*responsive columns*/
+  @media screen and (max-width: 1000px) {
+    .columnl-70,
+    .columnl-30,
+    .columnl-i1,
+    .columnl-i2 {
+      width: 100%;
+      text-align: center;
+    }
+    .imgi, .imgj {
+      margin: auto;
+    }
+  }
+
+  a:link {
+    text-decoration: none;
+  } 
+
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 10px;
+    width: 100%;
+  }
+
+ .padd{
+    padding: 0px 40px 0px 40px
+ } 
+
+ @media screen and (max-width: 800px) {
+  .padd{
+    padding: 0px 0px 0px 0px
+ } 
+}
+
+/*dark mode elements*/
+.switch {
+  align-self: flex-end;
+}
+.inner-switch {
+  display: inline-block;
+  cursor: pointer;
+  border-radius: none;
+  width: 3.125rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/*projects*/
+div.gallery {
+  border: 2px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+div.gallery:hover {
+  box-shadow: 0 16px 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.img-thumbnail {
+  min-height: 100px;
+   height: 240px;
+   border: 6px solid white;
+}
+  
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsivep {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 1030px) {
+  .responsivep {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsivep {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*Experiences*/
+.accordion {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.activee, .accordion:hover {
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.accordion:after {
+  content: '\002B';
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.activee:after {
+  content: "\2212";
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
+
+.dark,
+.dark * {
+    background-color: #222831;
+    color: white;
+    border-color: white;
+}
