@@ -1,7 +1,8 @@
-# Build Simple Template with HTML-CSS and JS.
+# Minimal Portfolio with HTML-CSS and JS.
 
 ## Screenshot
-<img src="public/img/screenshot.png">
+<img src="f/s1.png">
+<img src="f/s2.png">
 
 ## References:
 
