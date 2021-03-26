@@ -15,5 +15,3 @@
 * Creating dark mode in simple html, css & js: ```https://www.developerdrive.com/css-dark-mode/```
 
 * To make jquery work: ```https://stackoverflow.com/questions/19830689/why-is-the-jquery-script-not-working/19831279#19831279```
-
-<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
