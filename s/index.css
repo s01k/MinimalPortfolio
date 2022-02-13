@@ -217,6 +217,7 @@ div.desc {
 }
 
 .responsivep {
+  margin-bottom: 6px;
   padding: 0 6px;
   float: left;
   width: 24.99999%;
