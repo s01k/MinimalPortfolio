@@ -54,9 +54,10 @@ h4{
     color: black;
   }
 
-  .card:hover {
+  /*.card:hover {
     box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
-  }
+  }*/
+  
  /* card image */
   .cimg {
     height: 100px;
