@@ -11,7 +11,7 @@ h3{
 }
 
 h4{
-    font-size: 20px;
+    font-size: 14px;
     font-weight: lighter;
 }
 
@@ -57,7 +57,7 @@ h4{
   /*.card:hover {
     box-shadow: 0 10px 12px 0 rgba(0, 0, 0, 0.2);
   }*/
-  
+
  /* card image */
   .cimg {
     height: 100px;
